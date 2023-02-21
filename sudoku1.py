@@ -23,8 +23,8 @@ for p in sample(range(squares),empties):
     board[p//side][p%side] = 0
 
 numSize = len(str(side))
-for line in board:
-    print(*(f"{n or '.':{numSize}} " for n in line))
+#for line in board:
+#    print(*(f"{n or '.':{numSize}} " for n in line))
 
 def expandLine(line):
     return line[0]+line[5:9].join([line[1:5]*(base-1)]*base)+line[9:13]
