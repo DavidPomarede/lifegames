@@ -49,7 +49,7 @@ class Engine(object):
       self.nBirth = nBirth
       nSurvive = np.sum(survive)
       self.nSurvive = nSurvive
-   return state
+   #return state
 
 #-------------------------------------------------------------------------
 
