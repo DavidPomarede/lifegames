@@ -8,7 +8,7 @@ s = Session()
 violin = s.new_part("Violin")
 sax = s.new_part("Saxophone")
 brass = s.new_part("Brass")
-piano = s.new_part("Piano")
+#piano = s.new_part("Piano")
 bass = s.new_part("Bass")
 drums = s.new_part("Drums")
 
